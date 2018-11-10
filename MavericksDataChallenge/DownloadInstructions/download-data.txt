@@ -1,0 +1,47 @@
+s3 bucket information:
+ 
+The bucket is called mavs-basketball.
+Your access key is AKIAJFK3V3NKRDETXGHQ
+Your secret access key is KzFTVIu7zja5nuZ0D1tRfabVsMQV51zr3h6EOvJs
+ 
+Be sure to look at the documentation file for field details
+===================================================================== 
+To download programtically, the following instructions should work:
+ 
+OS X Instructions
+ 
+1) Download and install aws tools from
+    http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html
+ 
+2) Open up terminal and change directory to where you want to save file.
+ 
+3) Type in "aws configure”
+ 
+4) Input your access key, press enter, input your secret key, and press enter three more times.
+ 
+5) List files by inputting "aws s3 ls s3://mavs-basketball/frames/" and pressing enter. You can do the same replacing “frames” with “meta” and “simple-markings”.
+ 
+6) Download files by inputting "aws s3 sync s3://mavs-basketball/frames/ ." and pressing enter. You can do the same replacing “frames” with “meta” and “simple-markings”.
+ 
+ 
+ 
+ 
+Windows Instructions
+ 
+1)            Download aws cli tool from
+http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#install-msi-on-windows
+ 
+2) Install aws cli tool from the downloaded .msi.
+ 
+3) Open up the command prompt (cmd or PowerShell).
+ 
+4) Change directory to where you want to save the files.
+ 
+5) Type in "aws configure"
+ 
+6) Input your access key, press enter, input your secret key, and press enter three more times.
+ 
+7) List files by inputting "aws s3 ls s3://mavs-basketball/frames/" and pressing enter. You can do the same replacing “frames” with “meta” and “simple-markings”.
+ 
+8) Download files by inputting "aws s3 sync s3://mavs-basketball/frames/ ." and pressing enter. You can do the same replacing “frames” with “meta” and “simple-markings”.
+ 
